@@ -42,11 +42,11 @@ And it is the first year that there are deep learning models obtaining the error
 
 ## Training score and accuracy
 Training Score =  0.6011782038497925  
-Training Accuracy =  0.99638 %
+Training Accuracy =  0.99638 
 
 ## Test score and accuracy
 Validation Score =  2.111604061126709  
-Validation Accuracy = 0.7048 %
+Validation Accuracy = 0.7048 
 
 
 ## How To Run
@@ -77,17 +77,8 @@ There are two mode, <br>
 ## Please commit for any changes or bugs :)
 
 
-**Reference: Very Deep Convolutional Networks for Large-Scale Image Recognition**
-By:Karen Simonyan∗& Andrew Zisserman
+**Reference: Very Deep Convolutional Networks for Large-Scale Image Recognition**<br>
+By:Karen Simonyan∗& Andrew Zisserman<br>
 +Visual Geometry Group, Department of Engineering Science,University of Oxford.
-
-
-
-
-
-
-
-
-
 
 
