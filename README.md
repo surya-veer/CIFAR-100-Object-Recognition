@@ -37,8 +37,16 @@ These are some images from CIFAR-100 dataset.
 ## About VGG-NET
 VGGNet is invented by VGG (Visual Geometry Group) from University of Oxford, Though VGGNet is the 1st runner-up, not the winner of the ILSVRC ImageNet Large Scale Visual Recognition Competition 2014 in the classification task, which has significantly improvement over ZFNet (The winner in 2013) [2] and AlexNet (The winner in 2012) [3]. And GoogLeNet is the winner of ILSVLC 2014, I will also talk about it later.) Nevertheless, VGGNet beats the GoogLeNet and won the localization task in ILSVRC 2014.
 
-And it is the first year that there are deep learning models obtaining the error rate under 10%. The most important is that there are many other models built on top of VGGNet or based on the 3×3 conv idea of VGGNet for other purposes or other domains. That’s why we need to know about VGGNet! That is also why this is a 2015 ICLR paper with more than 14000 citations.
+And it is the first year that there are deep learning models obtaining the error rate under 10%. The most important is that there are many other models built on top of VGGNet or based on the 3×3 conv idea of VGGNet for other purposes or other domains. That’s why we need to know about VGGNet! That is also why this is a 2015 ICLR paper with more than 14000 citations.<br>
+**Architecture**<br>
+![Architecture](images/visual.png)
 
+## Procedure for classification 
+1. Data preprocessing / Visualisation (changing shape, label encoding etc.)
+2. Data Augmentation
+3. Constructing VGG-NET (creating model using Keras)
+4. Train and Testing 
+5. Validation 
 
 ## Training score and accuracy
 Training Score =  0.6011782038497925  
