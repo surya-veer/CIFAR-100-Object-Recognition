@@ -31,7 +31,8 @@ The images and labels are all taken from the CIFAR-100 dataset which was collect
 
 ## Visualisation of original data with labels
 These are some images from CIFAR-100 dataset.
-![objects](images/objects.png)
+
+![objects](images/objects1.png)
 
 ## About VGG-NET
 VGGNet is invented by VGG (Visual Geometry Group) from University of Oxford, Though VGGNet is the 1st runner-up, not the winner of the ILSVRC ImageNet Large Scale Visual Recognition Competition 2014 in the classification task, which has significantly improvement over ZFNet (The winner in 2013) [2] and AlexNet (The winner in 2012) [3]. And GoogLeNet is the winner of ILSVLC 2014, I will also talk about it later.) Nevertheless, VGGNet beats the GoogLeNet and won the localization task in ILSVRC 2014.
@@ -49,14 +50,34 @@ Validation Accuracy = 0.7048 %
 
 
 ## How To Run
-Colne
+1. Download or clone this repository.
+
+2. Extract to some location.
+
+3. (OPTIONAL) Use my pretrained weights if you don't have good processing power. I have trained it on [AWS G3 instance.](https://aws.amazon.com/ec2/instance-types/g3/)<br>
+    **Download link**: http://bit.ly/cifar-100-weights (Short link of my google drive)<br>
+    After downloading, extract it to same path as **Cifar-100-VGG.ipynb**
+
+4. Run **Cifar-100-VGG.ipynb** using **Jupyter Notebook** 
+There are two mode, <br>
+  (i). Using pre-trained weights (You can set **IS_TRAIN = False**)
+  (ii). Train your own model (You can set **IS_TRAIN = True**)
+
+## Dependencies
+ * **Keras**
+ * **tensorflow/theano**
+ * **Skleran**
+ * **Opencv**
+ * **Pandas**
+ * **Numpy**
+ * **Matplotlib**
+ * **Pickle** 
 
 
+## Please commit for any changes or bugs :)
 
 
-
-
-Reference: Very Deep Convolutional Networks for Large-Scale Image Recognition
+**Reference: Very Deep Convolutional Networks for Large-Scale Image Recognition**
 By:Karen Simonyan∗& Andrew Zisserman
 +Visual Geometry Group, Department of Engineering Science,University of Oxford.
 
